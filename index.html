@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fotis Zagas — Photography</title>
+  <meta name="description" content="Professional architectural photography, drone sessions, 3D virtual tours, and video production. Capturing spaces with precision and artistry." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== SIDEBAR NAVIGATION ===================== -->
+  <aside class="sidebar" id="sidebar">
+    <!-- Logo — acts as Home trigger -->
+    <a href="#hero" class="sidebar__logo">
+      <img src="assets/logo.svg" alt="Fotis Zagas — Photography" />
+    </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="sidebar__nav">
+      <a href="#about" class="sidebar__link">About</a>
+      <a href="#services" class="sidebar__link">Services</a>
+      <a href="#personal-work" class="sidebar__link">Personal Work</a>
+      <a href="#contact" class="sidebar__link">Contact</a>
+    </nav>
+
+    <!-- Sidebar footer — social hint -->
+    <div class="sidebar__footer">
+      <a href="https://www.instagram.com/fotis_zagas/" target="_blank" rel="noopener noreferrer" class="sidebar__social">Instagram</a>
+    </div>
+  </aside>
+
+  <!-- ===================== MOBILE HEADER ===================== -->
+  <header class="mobile-header" id="mobile-header">
+    <a href="#hero" class="mobile-header__logo">
+      <img src="assets/logo.svg" alt="Fotis Zagas" />
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <nav class="mobile-drawer__nav">
+      <a href="#about" class="mobile-drawer__link">About</a>
+      <a href="#services" class="mobile-drawer__link">Services</a>
+      <a href="#personal-work" class="mobile-drawer__link">Personal Work</a>
+      <a href="#contact" class="mobile-drawer__link">Contact</a>
+    </nav>
+  </div>
+
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main class="main" id="main">
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+
+      <!-- Row 1: Statement — single full-width image -->
+      <div class="hero-row hero-row--statement reveal">
+        <div class="hero-img">
+          <img src="assets/home/hero-1.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 2: Dialogue — two images, 55/45 split -->
+      <div class="hero-row hero-row--dialogue reveal">
+        <div class="hero-img hero-img--55">
+          <img src="assets/home/hero-2.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--45">
+          <img src="assets/home/hero-3.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 3: Whisper — single offset image -->
+      <div class="hero-row hero-row--whisper reveal">
+        <div class="hero-img">
+          <img src="assets/home/hero-4.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 4: Chorus — three images -->
+      <div class="hero-row hero-row--chorus reveal">
+        <div class="hero-img hero-img--35">
+          <img src="assets/home/hero-5.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--30">
+          <img src="assets/home/hero-6.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--35">
+          <img src="assets/home/hero-7.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 5: Breath — two equal images -->
+      <div class="hero-row hero-row--breath reveal">
+        <div class="hero-img hero-img--50">
+          <img src="assets/home/hero-8.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--50">
+          <img src="assets/home/hero-9.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 6: Solo — single centered image -->
+      <div class="hero-row hero-row--solo reveal">
+        <div class="hero-img">
+          <img src="assets/home/hero-10.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 7: Statement -->
+      <div class="hero-row hero-row--statement reveal">
+        <div class="hero-img">
+          <img src="assets/home/hero-11.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 8: Dialogue -->
+      <div class="hero-row hero-row--dialogue reveal">
+        <div class="hero-img hero-img--45">
+          <img src="assets/home/hero-12.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--55">
+          <img src="assets/home/hero-13.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 9: Whisper (left-aligned this time) -->
+      <div class="hero-row hero-row--whisper hero-row--whisper-left reveal">
+        <div class="hero-img">
+          <img src="assets/home/hero-14.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 10: Chorus -->
+      <div class="hero-row hero-row--chorus reveal">
+        <div class="hero-img hero-img--30">
+          <img src="assets/home/hero-15.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--35">
+          <img src="assets/home/hero-16.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--35">
+          <img src="assets/home/hero-17.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 11: Breath -->
+      <div class="hero-row hero-row--breath reveal">
+        <div class="hero-img hero-img--50">
+          <img src="assets/home/hero-18.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--50">
+          <img src="assets/home/hero-19.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 12: Solo -->
+      <div class="hero-row hero-row--solo reveal">
+        <div class="hero-img">
+          <img src="assets/home/hero-20.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Row 13: Dialogue — final pair -->
+      <div class="hero-row hero-row--dialogue reveal">
+        <div class="hero-img hero-img--55">
+          <img src="assets/home/hero-21.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+        <div class="hero-img hero-img--45">
+          <img src="assets/home/hero-22.jpg" alt="Architectural photograph" loading="lazy" />
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+      <div class="about__grid">
+        <!-- Portrait Image -->
+        <div class="about__image reveal">
+          <img src="assets/home/hero-2.jpg" alt="Fotis Zagas — Photographer" loading="lazy" />
+        </div>
+
+        <!-- Text Content -->
+        <div class="about__content">
+          <h2 class="section-heading reveal">About</h2>
+          <div class="accent-line reveal"></div>
+          <p class="about__text reveal">
+            Fotis Zagas is a professional photographer based in Thessaloniki, Greece,
+            specializing in architectural photography, drone sessions, immersive 3D
+            virtual tours, and video production. With a meticulous eye for composition
+            and light, every project becomes a visual narrative that reveals the soul
+            of a space.
+          </p>
+          <p class="about__text reveal">
+            Bridging technical precision with artistic vision, the work goes beyond
+            simple documentation — it transforms properties and environments into
+            compelling stories that resonate with audiences and elevate brands.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services" id="services">
+      <h2 class="section-heading section-heading--light reveal">Services</h2>
+
+      <div class="services__list">
+        <!-- Service 01 -->
+        <div class="services__item reveal">
+          <div class="services__separator"></div>
+          <div class="services__row">
+            <span class="services__number">01</span>
+            <h3 class="services__title">Architectural Photography</h3>
+            <p class="services__desc">
+              High-end interior and exterior photography that captures the
+              essence, materiality, and atmosphere of architectural spaces.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 02 -->
+        <div class="services__item reveal">
+          <div class="services__separator"></div>
+          <div class="services__row">
+            <span class="services__number">02</span>
+            <h3 class="services__title">Drone Sessions</h3>
+            <p class="services__desc">
+              Aerial photography and videography offering breathtaking
+              perspectives that reveal the full scale and context of any project.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 03 -->
+        <div class="services__item reveal">
+          <div class="services__separator"></div>
+          <div class="services__row">
+            <span class="services__number">03</span>
+            <h3 class="services__title">3D Doll House</h3>
+            <p class="services__desc">
+              Immersive Matterport 3D virtual tours that allow clients to
+              explore spaces remotely with a fully interactive walkthrough experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 04 -->
+        <div class="services__item reveal">
+          <div class="services__separator"></div>
+          <div class="services__row">
+            <span class="services__number">04</span>
+            <h3 class="services__title">Video Production</h3>
+            <p class="services__desc">
+              Cinematic video content — from concept to final cut —
+              crafted to tell the story of a space in motion.
+            </p>
+          </div>
+        </div>
+
+        <div class="services__separator reveal"></div>
+      </div>
+    </section>
+
+
+    <!-- ========== PERSONAL WORK SECTION ========== -->
+    <section class="personal-work" id="personal-work">
+      <div class="personal-work__header reveal">
+        <h2 class="section-heading">Personal Work</h2>
+        <p class="personal-work__subtitle">
+          A curated collection of personal projects and creative explorations
+          beyond the commissioned lens.
+        </p>
+      </div>
+
+      <div class="personal-work__grid">
+        <div class="personal-work__card reveal"><div class="personal-work__placeholder"><span>Coming Soon</span></div></div>
+        <div class="personal-work__card reveal"><div class="personal-work__placeholder"><span>Coming Soon</span></div></div>
+        <div class="personal-work__card reveal"><div class="personal-work__placeholder"><span>Coming Soon</span></div></div>
+        <div class="personal-work__card reveal"><div class="personal-work__placeholder"><span>Coming Soon</span></div></div>
+        <div class="personal-work__card reveal"><div class="personal-work__placeholder"><span>Coming Soon</span></div></div>
+        <div class="personal-work__card reveal"><div class="personal-work__placeholder"><span>Coming Soon</span></div></div>
+      </div>
+    </section>
+
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+      <div class="contact__grid">
+        <!-- Left column -->
+        <div class="contact__left">
+          <h2 class="section-heading reveal">Let's<br />Work<br />Together</h2>
+          <div class="accent-line reveal"></div>
+        </div>
+
+        <!-- Right column -->
+        <div class="contact__right">
+          <div class="contact__block reveal">
+            <span class="contact__label">Instagram</span>
+            <a href="https://www.instagram.com/fotis_zagas/" target="_blank" rel="noopener noreferrer" class="contact__value">@fotis_zagas</a>
+          </div>
+
+          <div class="contact__block reveal">
+            <span class="contact__label">Email</span>
+            <a href="mailto:fotiszagasph@gmail.com" class="contact__value">fotiszagasph@gmail.com</a>
+          </div>
+
+          <div class="contact__block reveal">
+            <span class="contact__label">WhatsApp</span>
+            <a href="https://wa.me/306940177133" target="_blank" rel="noopener noreferrer" class="contact__value">694 017 7133</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <span class="footer__copy">&copy; <span id="year"></span> Fotis Zagas</span>
+        <span class="footer__tagline">Photography &amp; Visual Content</span>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
